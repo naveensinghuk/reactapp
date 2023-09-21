@@ -1,0 +1,25 @@
+.img-wrapper .item{
+    padding: 20px 20px;
+    margin: 20px 20px;
+    background-color:gray;
+    font-size: 5px;
+  }
+  
+  .btn-wrapper button{
+    color: #fff;
+    background-color: brown;
+  }
+
+  @media  (max-width: 600px){
+    .img-wrapper .item{
+        padding: 20px 20px;
+        margin: 20px 20px;
+        background-color:gray;
+        font-size: 5px;
+      }
+      
+      .btn-wrapper button{
+        color: #fff;
+        background-color: brown;
+      }
+  }

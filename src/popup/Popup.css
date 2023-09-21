@@ -1,0 +1,68 @@
+.popup-overlay {
+    position: absolute;
+    top: 20px;
+    right: 200px;
+    width: 70%;
+    height: 70%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popup {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+  
+  .popup-content {
+    padding: 20px;
+  }
+  
+  @media screen {
+    .popup-overlay {
+        position: absolute;
+        top: 20px;
+        right: 200px;
+        width: 70%;
+        height: 70%;
+        background: rgba(0, 0, 0, 0.5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .popup {
+        background: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        position: relative;
+      }
+      
+      .close-button {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        border: none;
+        background: none;
+        cursor: pointer;
+      }
+      
+      .popup-content {
+        padding: 20px;
+      }
+      
+  }
